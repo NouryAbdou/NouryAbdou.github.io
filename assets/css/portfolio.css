@@ -11146,10 +11146,21 @@ p {
   border: 1px solid #dee2e6;
   border-radius: 3px;
   height: auto;
+  margin-bottom: 15px;
+      border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 1200px) {
+  .service-card {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .service-card .body {
   padding: 10px;
+
 }
 
 .service-card .body img.icon {
@@ -11168,6 +11179,8 @@ p {
 }
 
 .service-card .body .subtitle {
+  margin: 5px;
+    text-align: left;
   position: absolute;
   overflow: hidden;
   bottom: -100%;
@@ -12727,4 +12740,10 @@ pre .code {
   max-width: 40%;
   height: auto;
   margin: 10px;
+}
+.very-small-image {
+  width: 15%;
+  max-width: 15%;
+  height: auto;
+  margin: 5px;
 }
