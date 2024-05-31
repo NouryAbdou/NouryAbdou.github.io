@@ -3790,7 +3790,7 @@ input[type="button"].btn-block {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
+      -ms-flex-wrap: wrap; 
           flex-wrap: wrap;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
@@ -11141,6 +11141,7 @@ p {
 }
 
 .service-card {
+  margin:10px;
   position: relative;
   min-height: 230px;
   border: 1px solid #dee2e6;
@@ -11192,6 +11193,7 @@ p {
 
 
 .service-card:hover .body .subtitle {
+  text-align: left;
     position: relative;
   bottom: 7px;
   opacity: 1;
@@ -11421,6 +11423,8 @@ p {
 }
 
 .blog-card-header {
+  align-items: center;
+  justify-content: center;
   min-width: 350px;
   max-width: 350px;
 }
@@ -11434,6 +11438,7 @@ p {
 }
 
 .blog-card-body {
+
   padding: 30px 20px 30px 30px;
 }
 
@@ -11652,6 +11657,11 @@ pre .code {
   font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1300 - 300)));
   text-decoration: none;
   color: #fff;
+}
+
+.logo {
+  font-family : cursive;
+  font-weight: bold;
 }
 
 .custom-navbar .container {
@@ -12325,7 +12335,7 @@ pre .code {
 }
 
 .exp-info, .exp-desc {
-  flex: 0 0 70%;
+  flex: 0 0 80%;
   margin-left: auto;
   text-align: start;
 }
@@ -12336,6 +12346,7 @@ pre .code {
 
 .exp h3 {
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 .exp h4 {
@@ -12490,8 +12501,8 @@ pre .code {
 }
 
 .about-img {
-  width: 100%;
-  height: 600px;
+  width: 300px;
+  height: 30%;
   margin-bottom: 30px;
 }
 
@@ -12727,4 +12738,15 @@ pre .code {
   max-width: 40%;
   height: auto;
   margin: 10px;
+}
+
+.very-small-image {
+  height: auto;
+  width: 30px ;
+  margin: 10px;
+}
+
+.limited-width {
+  max-width: 600px;
+  margin: 0 auto;
 }
