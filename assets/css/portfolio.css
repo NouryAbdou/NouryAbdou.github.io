@@ -12332,7 +12332,7 @@ pre .code {
 
 /*SECTION EXP ET FORMATION*/
 .exp {
-  width: 70%;
+  width: 100%;
   display: flex;
   flex-flow: row wrap;
   border-bottom: 1px solid #bbb;
@@ -12353,7 +12353,7 @@ pre .code {
 }
 
 .exp-info, .exp-desc {
-  flex: 0 0 80%;
+  flex: 0 0 85%;
   margin-left: auto;
   text-align: start;
 }
@@ -12363,7 +12363,7 @@ pre .code {
 }
 
 .exp h3 {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: bold;
 }
 
