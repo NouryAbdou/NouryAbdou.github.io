@@ -90,9 +90,15 @@ hr {
   overflow: visible;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 p {
@@ -11149,10 +11155,21 @@ p {
   border: 1px solid #dee2e6;
   border-radius: 3px;
   height: auto;
+  margin-bottom: 15px;
+      border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 1200px) {
+  .service-card {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
 }
 
 .service-card .body {
   padding: 10px;
+
 }
 
 .service-card .body img.icon {
@@ -11171,6 +11188,8 @@ p {
 }
 
 .service-card .body .subtitle {
+  margin: 5px;
+    text-align: left;
   position: absolute;
   overflow: hidden;
   bottom: -100%;

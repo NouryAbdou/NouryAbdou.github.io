@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'themify';
+	font-family: 'serif';
 	src:url("../fonts/themify.eot?-fvbane");
 	src:url("../fonts/themify.eot?#iefix-fvbane") format("embedded-opentype"),
 		url("../fonts/themify.woff?-fvbane") format("woff"),
@@ -10,7 +10,8 @@
 }
 
 [class^="ti-"], [class*=" ti-"] {
-	font-family: 'themify';
+	font-family: Georgia,
+		serif;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
